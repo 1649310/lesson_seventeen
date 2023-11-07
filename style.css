@@ -24,6 +24,7 @@ width: 450px;
 }
 .main {
     display: flex;
+    flex-direction: column;
 }
 /* Авраменко Ярослава */
 
