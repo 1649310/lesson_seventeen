@@ -63,22 +63,27 @@ h2 {
 .Kolli-img {
     width: 20%;
     border-radius: 12%;
-    box-shadow: 9px 5px 5px rgb(43, 0, 255)
+    box-shadow: 9px 5px 5px rgb(43, 0, 255);
+    transition:0.1s;
     }
     .Kolli-img2 {
         width: 30%;
         border-radius: 12%;
-        box-shadow: 9px 5px 5px rgb(43, 0, 255)
+        box-shadow: 9px 5px 5px rgb(43, 0, 255);
+        transition:0.1s;
         }
         .Kolli-img3 {
             width: 30%;
             border-radius: 12%;
-            box-shadow: 9px 5px 5px rgb(43, 0, 255)
+            box-shadow: 9px 5px 5px rgb(43, 0, 255);
+            transition:0.1s;
             }
             .Kolli-img4 {
                 width: 20%;
                 border-radius: 12%;
-                box-shadow: 9px 5px 5px rgb(43, 0, 255)
+                box-shadow: 9px 5px 5px rgb(43, 0, 255);
+                transition:0.1s;
+                
                 }
                 .Kolli-text {
                     font-size: x-large;
