@@ -5,10 +5,10 @@ body{
 
 h1 {
     text-align: center;
-    color: rgb(116, 43, 226);   
+    color: rgb(166, 119, 238);   
     text-decoration: dotted;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 12px 5px 5px rgb(0, 255, 208);
+    text-shadow: 8px 3px 5px rgb(109, 2, 180);
 }
 /* Омельченко Михайло */
  .pincher {
@@ -43,9 +43,27 @@ h2 {
     font-size: xx-large;
     text-align: center;
 }
+
 /* Авраменко Ярослава */
-
-
+.taxsa {
+    background: -webkit-repeating-linear-gradient(#df6df5,#9b08b8,#000000);
+}
+.taxsa_img {
+    width: 18%;
+border-radius: 7%;
+box-shadow: 8px 4px 4px rgb(106, 0, 129);
+}
+.taxsa_img:hover {
+    width: 35%;
+    box-shadow: 0px 0px 10px #222222;
+    transition:0.1s;
+}
+.taxsa_text {
+    color: #f1f2f5;
+    font-size: x-large;
+    font-style: italic; 
+    font-weight: 80;
+}
 
 
 /* Касьян Олександр */
