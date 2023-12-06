@@ -1,11 +1,11 @@
 body{
-    background: radial-gradient(#4ffc52,#eefa44,#2101d2);
+    background:  -webkit-repeating-linear-gradient(rgb(41, 132, 243),#40bcf1,#2709d3);
 }
 
 
 h1 {
     text-align: center;
-    color: rgb(166, 119, 238);   
+    color: rgb(174, 120, 255);   
     text-decoration: dotted;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 8px 3px 5px rgb(109, 2, 180);
@@ -46,7 +46,7 @@ h2 {
 
 /* Авраменко Ярослава */
 .taxsa {
-    background: -webkit-repeating-linear-gradient(#df6df5,#9b08b8,#ca1414);
+    background: -webkit-repeating-linear-gradient(#df6df5,#9b08b8,#080000);
 }
 .taxsa_img {
     width: 18%;
@@ -76,8 +76,9 @@ h2 {
     font-size: xx-large;
     text-shadow: 4px 5px 5px rgb(89, 0, 140);
 }
-a {
+.a {
     font-size: x-large;
+    text-decoration: dotted;
     text-align: center;
 }
 
