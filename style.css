@@ -49,8 +49,36 @@ h2 {
 
 
 /* Касьян Олександр */
-
-
+.korgi{
+    background: radial-gradient(#4f4ffc,#7abc17,#71df02);
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-style: oblique;
+}
+.kvad{ 
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    
+} 
+.fact{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Kor1{
+    display: flex;
+}
+.kor2{
+    display: flex;
+}
+.pobeda{
+    background-color: orangered;
+    width: 100px;
+    height: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 /* Гонгало Максим  */
