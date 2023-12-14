@@ -1,80 +1,114 @@
-body{
-    background:  -webkit-repeating-linear-gradient(rgb(41, 132, 243),#40bcf1,#2709d3);
+body {
+    margin: 0;
 }
-
+header {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 3%, rgba(121,9,94,0.7651435574229692) 74%);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
 
 h1 {
     text-align: center;
-    color: rgb(174, 120, 255);   
-    text-decoration: dotted;
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: rgb(12, 11, 29);
+    text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 8px 3px 5px rgb(109, 2, 180);
+    font-style: italic;
+    text-decoration: underline;
+    font-family: cursive;
 }
+h1:hover {
+    text-shadow: 8px 3px 5px rgb(109, 2, 180);
+    font-size: 40px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 4px 5px 5px rgb(89, 0, 140);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 /* Омельченко Михайло */
- .pincher {
+.pincher {
     background-color: blanchedalmond;
 }
+
 .pincher-main {
     display: flex;
     flex-direction: row;
 }
-.a{
-  font-size: x-large;
+
+.a {
+    font-size: x-large;
 }
+
 .pincher-text {
     text-align: left;
     font-size: x-large;
-    font-family: monospace; 
+    font-family: monospace;
     font-weight: 800;
     font-style: italic;
 }
+
 .pincher-img {
-width: 30%;
-border-radius: 7%;
-box-shadow: 8px 4px 4px rgb(149, 255, 0);
+    width: 30%;
+    border-radius: 7%;
+    box-shadow: 8px 4px 4px rgb(149, 255, 0);
 }
-.pincher-img:hover{
+
+.pincher-img:hover {
     width: 40%;
     box-shadow: 0px 0px 10px #222222;
-    transition:0.1s;
-}
-h2 {
-    font-size: xx-large;
-    text-align: center;
+    transition: 0.1s;
 }
 
 /* Авраменко Ярослава */
 .taxsa {
-    background: -webkit-repeating-linear-gradient(#df6df5,#9b08b8,#080000);
+    background: -webkit-repeating-linear-gradient(#df6df5, #9b08b8, #080000);
 }
+
 .taxsa_img {
     width: 18%;
     border-radius: 7%;
     box-shadow: 8px 4px 4px rgb(106, 0, 129);
 }
+
 .taxsa_img:hover {
     width: 35%;
     box-shadow: 0px 0px 10px #222222;
-    transition:0.1s;
+    transition: 0.1s;
 }
+
 .taxsa_text {
     color: #f1f2f5;
     font-size: x-large;
-    font-style: italic; 
+    font-style: italic;
     font-weight: 80;
     text-align: center;
 }
+
 .opus {
     font-style: italic;
     font-size: xx-large;
     color: rgb(63, 0, 97);
     text-shadow: 8px 3px 3px rgb(89, 0, 140);
 }
-h2 {
-    font-style: italic;
-    font-size: xx-large;
-    text-shadow: 4px 5px 5px rgb(89, 0, 140);
-}
+
+
+
 .a {
     font-size: x-large;
     text-decoration: dotted;
@@ -82,31 +116,36 @@ h2 {
 }
 
 /* Касьян Олександр */
-.korgi{
-    background: radial-gradient(#4f4ffc,#7abc17,#71df02);
+.korgi {
+    background: radial-gradient(#4f4ffc, #7abc17, #71df02);
     text-align: left;
     font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
     font-style: oblique;
 }
-.kvad{ 
+
+.kvad {
     width: 500px;
     height: 500px;
     border-radius: 10px;
-    
-} 
-.fact{
+
+}
+
+.fact {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.Kor1{
+
+.Kor1 {
     display: flex;
 }
-.kor2{
+
+.kor2 {
     display: flex;
 }
-.pobeda{
+
+.pobeda {
     background-color: orangered;
     width: 100px;
     height: 75px;
@@ -119,55 +158,75 @@ h2 {
 
 /* Дорошенко Владислав */
 .Kolli {
-    background-color: rgb(250, 225, 0);
+    background: linear-gradient(90deg, #6896aa, grey);
+    padding: 25px;
+    text-align: center;
 }
+.Kolli-desc {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    border-bottom: 3px dotted #446c7e;
+
+}
+.Kolli-link {
+    padding: 20px;
+    color: white;
+    background-color: #6896aa;
+    font-style: italic;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.Kolli-link:hover {
+    background-color: white;
+    border: 1px solid #6896aa;
+    color: #6896aa;
+    transition: 0.3s;
+}
+.Kolli-desc1 {
+    display: flex;
+    margin-bottom: 40px;
+      align-items: center;
+      margin-top: 20px;
+}
+.Kolli-desc2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+     flex-direction: row-reverse;
+}
+
 .Kolli-img {
-    width: 20%;
-    border-radius: 12%;
-    box-shadow: 9px 5px 5px rgb(43, 0, 255);
-    transition:0.1s;
-    }
-    .Kolli-img2 {
-        width: 30%;
-        border-radius: 12%;
-        box-shadow: 9px 5px 5px rgb(43, 0, 255);
-        transition:0.1s;
-        }
-        .Kolli-img3 {
-            width: 30%;
-            border-radius: 12%;
-            box-shadow: 9px 5px 5px rgb(43, 0, 255);
-            transition:0.1s;
-            }
-            .Kolli-img4 {
-                width: 20%;
-                border-radius: 12%;
-                box-shadow: 9px 5px 5px rgb(43, 0, 255);
-                transition:0.1s;
-                
-                }
-                .Kolli-text {
-                    font-size: x-large;
-                    font-style: italic; 
-                    font-weight: 890;
-                    
-                }
-                .Kolli-text2 {
-                    font-size: x-large;
-                    font-style: italic; 
-                    font-weight: 200;
-                    text-shadow: 12px 6px 6px rgb(13, 0, 255);
-                     }
-                     .Kolli-text3 {
-                        font-size: x-large;
-                        font-style: italic; 
-                        font-weight: 400;
-                        text-shadow: 12px 6px 6px rgb(0, 33, 124);
-                         }
+    width: 400px;
+    border-radius: 10%;
+    box-shadow: 9px 5px 5px rgb(43, 43, 46);
+    
+}
+.Kolli-img:hover {
+    width: 430px;
+    transition: 0.3s;
+    box-shadow: 9px 5px 5px rgb(22, 22, 185);
+}
+
+.Kolli-text {
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.Kolli-text1 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    text-shadow: 3px 3px 3px rgb(100, 94, 201);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 70%;
+}
 
 
 /* Кушик Олександр */
-
-
-
-
