@@ -135,10 +135,12 @@ h2 {
 .fact {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: radial-gradient(#e10c0c, #bba903, #066c85);
 }
 
 .Kor1 {
     display: flex;
+    margin: 100px;
 }
 
 .kor2 {
@@ -146,10 +148,14 @@ h2 {
 }
 
 .pobeda {
-    background-color: orangered;
+    background: radial-gradient(#4f4ffc, #99ff00, #ea0075);  
     width: 100px;
     height: 75px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.crutoi{
+    font-size: 100px;
 }
 
 
