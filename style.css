@@ -78,16 +78,18 @@ h2 {
 /* Авраменко Ярослава */
 .taxsa {
     background: -webkit-repeating-linear-gradient(#df6df5, #9b08b8, #080000);
+    padding: 30px;
 }
 
+
 .taxsa_img {
-    width: 18%;
+    width: 20%;
     border-radius: 7%;
     box-shadow: 8px 4px 4px rgb(106, 0, 129);
 }
 
 .taxsa_img:hover {
-    width: 35%;
+    width: 30%;
     box-shadow: 0px 0px 10px #222222;
     transition: 0.1s;
 }
@@ -107,13 +109,28 @@ h2 {
     text-shadow: 8px 3px 3px rgb(89, 0, 140);
 }
 
-
-
 .a {
     font-size: x-large;
     text-decoration: dotted;
-    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    border-radius: 3px;
+    border: 1px solid white;
+
+    background-color: rgb(203, 70, 248);
+    border: 1px solid #7300b1;
+    color: rgb(91, 0, 156);
+    transition: 0.3s;
+    width: 30%;
+    margin-top: 20px;
+    padding: 8px;
 }
+.taxsa-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
 
 /* Касьян Олександр */
 .korgi {
