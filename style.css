@@ -44,15 +44,65 @@ h2 {
 /* Омельченко Михайло */
 .pincher {
     background-color: blanchedalmond;
+    padding: 25px;
 }
 
 .pincher-main {
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+    
+}
+.pincher-main2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+    border-top: 3px dotted #446c7e;
+    
+}
+.pincher-main3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+    border-top: 3px dotted #446c7e;
+    
 }
 
 .a {
+    padding: 4px;
+    color: yellow;
+    background-color: green;
+    font-style: italic;
+    border-radius: 4px;
+    border: 1px solid red;
+}
+.pincher-link {
+    background-color: #71df02;
+    color: #080000;
+    font-weight: bold;
     font-size: x-large;
+    text-align: center;
+    display: block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.pincher-link2 {
+    background-color: #71df02;
+    color: #080000;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    display: block;
+    width: 30%;
+    padding: 20px;
+}
+.pincher-link2:hover {
+    box-shadow: 5px 5px 10px #222222;
 }
 
 .pincher-text {
@@ -61,33 +111,37 @@ h2 {
     font-family: monospace;
     font-weight: 800;
     font-style: italic;
+    margin-left: 20px;
+    text-shadow: 3px 3px 3px rgb(100, 94, 201);
 }
 
 .pincher-img {
     width: 30%;
     border-radius: 7%;
-    box-shadow: 8px 4px 4px rgb(149, 255, 0);
+    box-shadow: 9px 5px 5px rgb(43, 43, 46);
 }
 
 .pincher-img:hover {
     width: 40%;
     box-shadow: 0px 0px 10px #222222;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 /* Авраменко Ярослава */
 .taxsa {
     background: -webkit-repeating-linear-gradient(#df6df5, #9b08b8, #080000);
+    padding: 30px;
 }
 
+
 .taxsa_img {
-    width: 18%;
+    width: 20%;
     border-radius: 7%;
     box-shadow: 8px 4px 4px rgb(106, 0, 129);
 }
 
 .taxsa_img:hover {
-    width: 35%;
+    width: 30%;
     box-shadow: 0px 0px 10px #222222;
     transition: 0.1s;
 }
@@ -107,13 +161,28 @@ h2 {
     text-shadow: 8px 3px 3px rgb(89, 0, 140);
 }
 
-
-
 .a {
     font-size: x-large;
     text-decoration: dotted;
-    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    border-radius: 3px;
+    border: 1px solid white;
+
+    background-color: rgb(203, 70, 248);
+    border: 1px solid #7300b1;
+    color: rgb(91, 0, 156);
+    transition: 0.3s;
+    width: 30%;
+    margin-top: 20px;
+    padding: 8px;
 }
+.taxsa-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
 
 /* Касьян Олександр */
 .korgi {
