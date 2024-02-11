@@ -202,12 +202,13 @@ h2 {
     padding: 50px;
     font-style: oblique;
     margin: 0;
+    align-items: center;
     
 }
 
 .kvad {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     border-radius: 20%;
     padding: 40px;
 }
@@ -221,19 +222,21 @@ h2 {
 .Kor1 {
     display: flex;
     margin: 100px;
+    align-items: center;
 }
 
 .kor2 {
     display: flex;
+    align-items: center;
 }
 
 .pobeda {
     background-color: #fff9f9;
-    font-size: larger;
+    
     text-decoration: solid;
     color: #000000;
     border-radius: 40px;
-    height: 140px;
+   
     padding: 10px;
 }
 .crutoi{
@@ -244,6 +247,13 @@ h2 {
     transition: 0.5s;
     box-shadow: 9px 5px 5px rgb(0, 187, 255);
 padding: 50px;
+}
+.kvad:hover{
+    width: 470px;
+    height: 470px;
+    transition: 0.9s;
+    box-shadow: 90px 50px 50px rgb(26, 190, 4);
+
 }
 
 /* Гонгало Максим  */
